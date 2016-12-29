@@ -1,6 +1,11 @@
 import React from 'react';
 import * as deps from '../../deps';
 
+import ads from '../../assets/Publi.png';
+import analytics from '../../assets/Analytics.png';
+import push from '../../assets/Push.png';
+import rate from '../../assets/Rate.png';
+
 const Content = () => (
   <div className="columns is-multiline">
     <div className="column is-5 is-12-mobile is-half-tablet">
@@ -8,7 +13,7 @@ const Content = () => (
         <div className="card-content">
           <div className="columns is-mobile">
             <div className="column is-3">
-              <img src="http://placehold.it/90x90" alt="Push Notifications icon" />
+              <img src={push} alt="Push Notifications icon" />
             </div>
             <div className="column is-9">
               <div className="content">
@@ -30,7 +35,7 @@ const Content = () => (
         <div className="card-content">
           <div className="columns is-mobile">
             <div className="column is-3">
-              <img src="http://placehold.it/90x90" alt="Ads icon" />
+              <img src={ads} alt="Ads icon" />
             </div>
             <div className="column is-9">
               <div className="content">
@@ -52,7 +57,7 @@ const Content = () => (
         <div className="card-content">
           <div className="columns is-mobile">
             <div className="column is-3">
-              <img src="http://placehold.it/90x90" alt="Analytics icon" />
+              <img src={analytics} alt="Analytics icon" />
             </div>
             <div className="column is-9">
               <div className="content">
@@ -74,7 +79,7 @@ const Content = () => (
         <div className="card-content">
           <div className="columns is-mobile">
             <div className="column is-3">
-              <img src="http://placehold.it/90x90" alt="Rate my App icon" />
+              <img src={rate} alt="Rate my App icon" />
             </div>
             <div className="column is-9">
               <div className="content">
