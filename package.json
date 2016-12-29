@@ -44,7 +44,7 @@
       "default": true,
       "menu": {
         "app": {
-          "name": "Add new",
+          "niceName": "Add new",
           "category": "Extensions",
           "order": 1
         }
