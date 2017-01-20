@@ -8,6 +8,21 @@ import analytics from '../../assets/Analytics.png';
 import push from '../../assets/Push.png';
 import rate from '../../assets/Rate.png';
 
+const ComingSoon = () => (
+  <div className="colums">
+    <div className="column is-5 is-12-mobile is-half-tablet is-paddingless" >
+      <article className="message is-primary">
+        <div className="message-header">
+          <p>Coming soon</p>
+        </div>
+        <div className="message-body">
+          Extensions are under development, we will notify you upon release.
+        </div>
+      </article>
+    </div>
+  </div>
+);
+
 let Content = ({ t }) => (
   <div className="columns is-multiline">
     <div className="column is-5 is-12-mobile is-half-tablet">
@@ -109,6 +124,8 @@ export default () => {
     <RootContainer>
       <h1>Extensions</h1>
       <hr />
+      <ComingSoon />
+      <br />
       <Content />
     </RootContainer>
   );
