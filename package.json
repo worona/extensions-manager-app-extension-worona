@@ -42,7 +42,7 @@
       "namespace": "extensionsManager",
       "menu": {
         "app": {
-          "niceName": "Add new",
+          "niceName": "Manage extensions",
           "category": "Extensions",
           "order": 1
         }

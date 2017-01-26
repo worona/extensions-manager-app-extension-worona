@@ -122,7 +122,7 @@ export default () => {
   const RootContainer = deps.elements.RootContainer;
   return (
     <RootContainer>
-      <h1>Extensions</h1>
+      <h1>Manage extensions</h1>
       <hr />
       <ComingSoon />
       <br />
