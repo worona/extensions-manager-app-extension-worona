@@ -1,6 +1,6 @@
 {
   "name": "extensions-manager-app-extension-worona",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package for the user to manage hers worona extensions.",
   "scripts": {
     "start": "node node_modules/worona-packages/dist/start.js"
