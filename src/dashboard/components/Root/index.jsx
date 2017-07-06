@@ -92,7 +92,27 @@ let Content = ({ t }) => (
           </div>
         </div>
         <footer className="card-footer">
-          <span className=" card-footer-item"><strong><small>Coming soon</small></strong></span>
+          <a
+            className="card-footer-item"
+            href="https://www.worona.org/google-analytics"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="icon is-small" >
+              <i className="fa fa-info-circle" />
+            </span>
+            &nbsp;&nbsp;Info
+          </a>
+          <a
+            className="card-footer-item"
+            href="https://shop.worona.org/google-analytics-checkout"
+            rel="noopener noreferrer"
+          >
+            <span className="icon is-small" >
+              <i className="fa fa-shopping-cart" />
+            </span>
+            &nbsp;&nbsp;<span style={{ fontWeight: '600' }} >BUY NOW</span>
+          </a>
         </footer>
       </div>
     </div>
