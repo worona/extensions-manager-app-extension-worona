@@ -39,7 +39,7 @@ let Content = ({ t }) => (
             </span>
             &nbsp;&nbsp;Info
           </a>
-          <a
+          {/* <a
             className="card-footer-item"
             href="https://shop.worona.org/push-notifications-checkout"
             rel="noopener noreferrer"
@@ -48,7 +48,7 @@ let Content = ({ t }) => (
               <i className="fa fa-shopping-cart" />
             </span>
             &nbsp;&nbsp;<span style={{ fontWeight: '600' }} >BUY NOW</span>
-          </a>
+          </a> */}
         </footer>
       </div>
     </div>
@@ -103,7 +103,7 @@ let Content = ({ t }) => (
             </span>
             &nbsp;&nbsp;Info
           </a>
-          <a
+          {/* <a
             className="card-footer-item"
             href="https://shop.worona.org/google-analytics-checkout"
             rel="noopener noreferrer"
@@ -112,7 +112,7 @@ let Content = ({ t }) => (
               <i className="fa fa-shopping-cart" />
             </span>
             &nbsp;&nbsp;<span style={{ fontWeight: '600' }} >BUY NOW</span>
-          </a>
+          </a> */}
         </footer>
       </div>
     </div>
